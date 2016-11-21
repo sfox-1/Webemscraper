@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+webemcrawler/__init__.py
+webemcrawler.egg-info/PKG-INFO
+webemcrawler.egg-info/SOURCES.txt
+webemcrawler.egg-info/dependency_links.txt
+webemcrawler.egg-info/entry_points.txt
+webemcrawler.egg-info/top_level.txt
+webemcrawler.egg-info/zip-safe

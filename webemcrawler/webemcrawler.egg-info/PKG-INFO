@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: webemcrawler
+Version: 1dev-r0
+Summary: Harvests email's and URL's
+Home-page: http://technometro.com
+Author: Seth Fox
+Author-email: seth@technometro.com
+License: Creative Commons BY-SA
+Description: Extract URL's and email's and stores them in a database.
+Keywords: Webscraper Webcrawler
+Platform: UNKNOWN
