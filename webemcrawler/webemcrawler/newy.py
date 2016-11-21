@@ -30,10 +30,10 @@ for urls in url:
         urls = 'http://{0}.{1}'.format(urls, 'com')
         bs = BeautifulSoup(urllib.urlopen(urls).read(), "html.parser")
         if 'FailedURI' in str(bs):
-            print urls, 'dead link or empty domain my friend.'
+            print urls, 'dead link or empty domain!'
             continue
         else:
-            print urls, "THIS ONE WORKS"
+            print urls, "THIS ONE WORKS AWESOME"
             cur.execute('''INSERT OR IGNORE INTO Valid (URL) VALUES ( ? )''',
                         (urls, ))
             conn.commit()
