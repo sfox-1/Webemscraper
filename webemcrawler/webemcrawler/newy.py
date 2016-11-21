@@ -30,7 +30,7 @@ for urls in url:
         urls = 'http://{0}.{1}'.format(urls, 'com')
         bs = BeautifulSoup(urllib.urlopen(urls).read(), "html.parser")
         if 'FailedURI' in str(bs):
-            print urls, 'dead link or empty domain'
+            print urls, 'dead link or empty domain my friend.'
             continue
         else:
             print urls, "THIS ONE WORKS"
