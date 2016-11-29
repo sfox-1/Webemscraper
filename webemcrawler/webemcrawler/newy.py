@@ -5,7 +5,6 @@ import sqlite3
 import urllib
 import itertools
 import re
-import scrapy
 
 
 def bruteforce(charset, maxlength):
@@ -15,7 +14,7 @@ def bruteforce(charset, maxlength):
                                           for i in range(1, maxlength + 1)))
 
 
-linkage = re.findall('href="(http://.*?)"', URI)
+# linkage = re.findall('href="(http://.*?)"', URI)
 conn = sqlite3.connect('content.sqlite')
 cur = conn.cursor()
 conn.text_factory = str
